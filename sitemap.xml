@@ -29,6 +29,11 @@
   
   <url>
     <loc>https://ikingye.github.io/design-pattern-note/docs/behavioral/command/</loc>
+    <lastmod>2020-10-09T15:56:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ikingye.github.io/design-pattern-note/docs/other/concurrency/</loc>
   </url>
   
   <url>
@@ -63,6 +68,7 @@
   
   <url>
     <loc>https://ikingye.github.io/design-pattern-note/docs/behavioral/interpreter/</loc>
+    <lastmod>2020-10-09T15:56:38+08:00</lastmod>
   </url>
   
   <url>
@@ -92,10 +98,12 @@
   
   <url>
     <loc>https://ikingye.github.io/design-pattern-note/docs/behavioral/iterator/</loc>
+    <lastmod>2020-10-09T15:56:38+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://ikingye.github.io/design-pattern-note/docs/behavioral/mediator/</loc>
+    <lastmod>2020-10-09T15:56:38+08:00</lastmod>
   </url>
   
   <url>
@@ -109,13 +117,12 @@
   </url>
   
   <url>
-    <loc>https://ikingye.github.io/design-pattern-note/docs/concurrency/</loc>
+    <loc>https://ikingye.github.io/design-pattern-note/docs/principle/isp/</loc>
     <lastmod>2020-10-09T15:46:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ikingye.github.io/design-pattern-note/docs/principle/isp/</loc>
-    <lastmod>2020-10-09T15:46:01+08:00</lastmod>
+    <loc>https://ikingye.github.io/design-pattern-note/docs/other/simple-factory/</loc>
   </url>
   
   <url>
@@ -125,10 +132,12 @@
   
   <url>
     <loc>https://ikingye.github.io/design-pattern-note/docs/behavioral/memento/</loc>
+    <lastmod>2020-10-09T15:56:38+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://ikingye.github.io/design-pattern-note/docs/behavioral/chain-of-responsibility/</loc>
+    <lastmod>2020-10-09T15:56:38+08:00</lastmod>
   </url>
   
   <url>
@@ -143,15 +152,12 @@
   
   <url>
     <loc>https://ikingye.github.io/design-pattern-note/docs/behavioral/observer/</loc>
+    <lastmod>2020-10-09T15:56:38+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://ikingye.github.io/design-pattern-note/docs/behavioral/state/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ikingye.github.io/design-pattern-note/docs/creational/simple-factory/</loc>
-    <lastmod>2020-10-09T15:46:01+08:00</lastmod>
+    <lastmod>2020-10-09T15:56:38+08:00</lastmod>
   </url>
   
   <url>
@@ -161,14 +167,17 @@
   
   <url>
     <loc>https://ikingye.github.io/design-pattern-note/docs/behavioral/strategy/</loc>
+    <lastmod>2020-10-09T15:56:38+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://ikingye.github.io/design-pattern-note/docs/behavioral/template-method/</loc>
+    <lastmod>2020-10-09T15:56:38+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://ikingye.github.io/design-pattern-note/docs/behavioral/visitor/</loc>
+    <lastmod>2020-10-09T15:56:38+08:00</lastmod>
   </url>
   
   <url>
@@ -177,7 +186,7 @@
   
   <url>
     <loc>https://ikingye.github.io/design-pattern-note/docs/</loc>
-    <lastmod>2020-10-09T15:46:01+08:00</lastmod>
+    <lastmod>2020-10-09T15:56:38+08:00</lastmod>
   </url>
   
   <url>
