@@ -1,0 +1,15 @@
+{
+  "name": "设计模式学习笔记",
+  "short_name": "设计模式学习笔记",
+  "start_url": "/design-pattern-note/",
+  "scope": "/design-pattern-note/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/design-pattern-note/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}
