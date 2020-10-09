@@ -43,6 +43,16 @@ public interface Target { // 这是源类Adapteee没有的方法  public void Re
     </item>
     
     <item>
+      <title>命令</title>
+      <link>https://ikingye.github.io/design-pattern-note/docs/behavioral/command/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ikingye.github.io/design-pattern-note/docs/behavioral/command/</guid>
+      <description>命令模式 #  Command Pattern
+代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
+    </item>
+    
+    <item>
       <title>开闭原则</title>
       <link>https://ikingye.github.io/design-pattern-note/docs/principle/ocp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -98,6 +108,16 @@ public interface Target { // 这是源类Adapteee没有的方法  public void Re
     </item>
     
     <item>
+      <title>翻译器</title>
+      <link>https://ikingye.github.io/design-pattern-note/docs/behavioral/interpreter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ikingye.github.io/design-pattern-note/docs/behavioral/interpreter/</guid>
+      <description>翻译器模式 #  Interpreter Pattern
+代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
+    </item>
+    
+    <item>
       <title>里氏替换原则</title>
       <link>https://ikingye.github.io/design-pattern-note/docs/principle/lsp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -132,6 +152,26 @@ public interface Target { // 这是源类Adapteee没有的方法  public void Re
       
       <guid>https://ikingye.github.io/design-pattern-note/docs/structural/decorator/</guid>
       <description>装饰模式 #  Decorator
+代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
+    </item>
+    
+    <item>
+      <title>迭代器</title>
+      <link>https://ikingye.github.io/design-pattern-note/docs/behavioral/iterator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ikingye.github.io/design-pattern-note/docs/behavioral/iterator/</guid>
+      <description>迭代器模式 #  Iterator Pattern
+代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
+    </item>
+    
+    <item>
+      <title>中介者</title>
+      <link>https://ikingye.github.io/design-pattern-note/docs/behavioral/mediator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ikingye.github.io/design-pattern-note/docs/behavioral/mediator/</guid>
+      <description>中介者模式 #  Mediator Pattern
 代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
     </item>
     
@@ -175,6 +215,26 @@ public interface Target { // 这是源类Adapteee没有的方法  public void Re
     </item>
     
     <item>
+      <title>回忆</title>
+      <link>https://ikingye.github.io/design-pattern-note/docs/behavioral/memento/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ikingye.github.io/design-pattern-note/docs/behavioral/memento/</guid>
+      <description>回忆模式 #  Memento Pattern
+代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
+    </item>
+    
+    <item>
+      <title>职责链</title>
+      <link>https://ikingye.github.io/design-pattern-note/docs/behavioral/chain-of-responsibility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ikingye.github.io/design-pattern-note/docs/behavioral/chain-of-responsibility/</guid>
+      <description>职责链模式 #  Chain-of-responsibility Pattern
+代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
+    </item>
+    
+    <item>
       <title>迪米特原则</title>
       <link>https://ikingye.github.io/design-pattern-note/docs/principle/lod/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -194,6 +254,26 @@ public interface Subject { public void buyMac(); } public class RealSubject impl
     </item>
     
     <item>
+      <title>观察者</title>
+      <link>https://ikingye.github.io/design-pattern-note/docs/behavioral/observer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ikingye.github.io/design-pattern-note/docs/behavioral/observer/</guid>
+      <description>观察者模式 #  Observer Pattern
+代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
+    </item>
+    
+    <item>
+      <title>状态机</title>
+      <link>https://ikingye.github.io/design-pattern-note/docs/behavioral/state/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ikingye.github.io/design-pattern-note/docs/behavioral/state/</guid>
+      <description>状态机模式 #  State Pattern
+代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
+    </item>
+    
+    <item>
       <title>简单工厂</title>
       <link>https://ikingye.github.io/design-pattern-note/docs/creational/simple-factory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -205,6 +285,36 @@ public interface Subject { public void buyMac(); } public class RealSubject impl
  将创建实例的工作与使用实例的工作分开，使用者不必关心类对象如何创建，实现了解耦； 把初始化实例时的工作放到工厂里进行，使代码更容易维护。 更符合面向对象的原则 &amp;amp; 面向接口编程，而不是面向实现编程。  缺点
  工厂类集中了所有实例（产品）的创建逻辑，一旦这个工厂不能正常工作，整个系统都会受到影响； 违背 “开放 - 关闭原则”，一旦添加新产品就不得不修改工厂类的逻辑，这样就会造成工厂逻辑过于复杂。 简单工厂模式由于使用了静态工厂方法，静态方法不能被继承和重写，会造成工厂角色无法形成基于继承的等级结构。 静态方法可以被继承  应用场景
  客户如果只知道传入工厂类的参数，对于如何创建对象的逻辑不关心时； 当工厂类负责创建的对象（具体产品）比较少时。  代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
+    </item>
+    
+    <item>
+      <title>策略</title>
+      <link>https://ikingye.github.io/design-pattern-note/docs/behavioral/strategy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ikingye.github.io/design-pattern-note/docs/behavioral/strategy/</guid>
+      <description>策略模式 #  Strategy Pattern
+代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
+    </item>
+    
+    <item>
+      <title>模板方法</title>
+      <link>https://ikingye.github.io/design-pattern-note/docs/behavioral/template-method/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ikingye.github.io/design-pattern-note/docs/behavioral/template-method/</guid>
+      <description>模板方法模式 #  Template Method Pattern
+代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
+    </item>
+    
+    <item>
+      <title>参观者</title>
+      <link>https://ikingye.github.io/design-pattern-note/docs/behavioral/visitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ikingye.github.io/design-pattern-note/docs/behavioral/visitor/</guid>
+      <description>参观者模式 #  Visitor Pattern
+代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
     </item>
     
   </channel>
