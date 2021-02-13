@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>首页 on 设计模式学习笔记</title>
-    <link>https://ikingye.github.io/design-pattern-note/</link>
+    <link>https://ikingye.github.io/design-pattern/</link>
     <description>Recent content in 首页 on 设计模式学习笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="https://ikingye.github.io/design-pattern-note/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ikingye.github.io/design-pattern/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>单一职责原则</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/principle/srp/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/principle/srp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/principle/srp/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/principle/srp/</guid>
       <description>单一职责原则 #  就一个类而言，应该仅有一个引起它变化的原因。</description>
     </item>
     
     <item>
       <title>抽象工厂</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/creational/abstract-factory/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/creational/abstract-factory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/creational/abstract-factory/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/creational/abstract-factory/</guid>
       <description>抽象工厂模式 #  Abstract Factory Pattern
 提供一个创建一系列相关或相互依赖对象的接口，而无须指定它们具体的类，具体的工厂负责实现具体的产品实例。
 解析
@@ -33,10 +33,10 @@
     
     <item>
       <title>适配器</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/structural/adapter/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/structural/adapter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/structural/adapter/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/structural/adapter/</guid>
       <description>适配器模式 #  Adapter
 适配器 Adapter 继承自 Adaptee，同时又实现了目标(Target)接口。
 public interface Target { // 这是源类Adapteee没有的方法  public void Request(); } public class Adaptee { public void SpecificRequest() { } } // 适配器Adapter继承自Adaptee，同时又实现了目标(Target)接口。 public class Adapter extends Adaptee implements Target { // 目标接口要求调用Request()这个方法名，但源类Adaptee没有方法Request()  // 因此适配器补充上这个方法名  // 但实际上Request()只是调用源类Adaptee的SpecificRequest()方法的内容  // 所以适配器只是将SpecificRequest()方法作了一层封装，封装成Target可以调用的Request()而已  @Override public void Request() { this.SpecificRequest(); } } public class AdapterPattern { public static void main(String[] args){ Target mAdapter = new Adapter()； mAdapter.</description>
@@ -44,30 +44,30 @@ public interface Target { // 这是源类Adapteee没有的方法  public void Re
     
     <item>
       <title>命令</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/behavioral/command/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/behavioral/command/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/behavioral/command/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/behavioral/command/</guid>
       <description>命令模式 #  Command Pattern
 代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
     </item>
     
     <item>
       <title>开闭原则</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/principle/ocp/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/principle/ocp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/principle/ocp/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/principle/ocp/</guid>
       <description>开闭原则 #  程序中的对象应该对扩展是开放的，对修改是封闭的。
 当一个类实现了一个功能的时候，如果想要改变这个功能不是去修改代码，而是通过扩展的方式去实现。 实现该类提供的接口方法，然后注入到该类中，通过这种方法去实现功能的改变。</description>
     </item>
     
     <item>
       <title>构造器</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/creational/builder/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/creational/builder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/creational/builder/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/creational/builder/</guid>
       <description>构造器模式 #  Builder
  抽象 Builder 规定要有哪些方法（用来创建产品） 具体 Builder 的方法可以实现不一样的内容，这些方法按顺序完成后，可以创建出来特定的产品 Director 规定创建产品的步骤；接收具体的 Builder 对象作为参数，按步骤调用 Builder 对象的各个方法，最后获取到创建的产品  解析
  创建产品的步骤是一致的，所有步骤完成后，就创建出产品 不同 Builder 的同一步可以做不同的事情，最后创建出不同的产品  缺点
@@ -76,20 +76,20 @@ public interface Target { // 这是源类Adapteee没有的方法  public void Re
     
     <item>
       <title>桥接</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/structural/bridge/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/structural/bridge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/structural/bridge/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/structural/bridge/</guid>
       <description>桥接模式 #  Bridge
 代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
     </item>
     
     <item>
       <title>工厂方法</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/creational/factory-method/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/creational/factory-method/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/creational/factory-method/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/creational/factory-method/</guid>
       <description>工厂方法模式 #  Factory Method
 又称工厂模式、多态工厂模式和虚拟构造器模式，
 通过定义工厂父类负责定义创建对象的公共接口，而子类则负责生成具体的对象。
@@ -99,117 +99,117 @@ public interface Target { // 这是源类Adapteee没有的方法  public void Re
     
     <item>
       <title>组合</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/structural/composite/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/structural/composite/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/structural/composite/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/structural/composite/</guid>
       <description>组合模式 #  Composite Pattern
 代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
     </item>
     
     <item>
       <title>翻译器</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/behavioral/interpreter/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/behavioral/interpreter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/behavioral/interpreter/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/behavioral/interpreter/</guid>
       <description>翻译器模式 #  Interpreter Pattern
 代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
     </item>
     
     <item>
       <title>里氏替换原则</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/principle/lsp/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/principle/lsp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/principle/lsp/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/principle/lsp/</guid>
       <description>里氏替换原则 #   所有引用基类的地方必须能透明的使用其子类对象。 只要父类能出现的地方子类就可以出现，替换为子类也不会产生任何的错误。 开闭原则一般可以通过里氏替换实现对扩展开放，对修改关闭的效果。  </description>
     </item>
     
     <item>
       <title>依赖倒置原则</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/principle/dip/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/principle/dip/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/principle/dip/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/principle/dip/</guid>
       <description>依赖倒置原则 #   模块间的依赖通过抽象发生，实现类之间不发生直接的依赖关系，其依赖关系是通过接口或抽象类产生的。 即依赖抽象，而不依赖具体的实现。  </description>
     </item>
     
     <item>
       <title>原型</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/creational/prototype/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/creational/prototype/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/creational/prototype/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/creational/prototype/</guid>
       <description>原型模式 #  Prototype
 代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
     </item>
     
     <item>
       <title>装饰</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/structural/decorator/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/structural/decorator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/structural/decorator/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/structural/decorator/</guid>
       <description>装饰模式 #  Decorator
 代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
     </item>
     
     <item>
       <title>迭代器</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/behavioral/iterator/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/behavioral/iterator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/behavioral/iterator/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/behavioral/iterator/</guid>
       <description>迭代器模式 #  Iterator Pattern
 代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
     </item>
     
     <item>
       <title>中介者</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/behavioral/mediator/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/behavioral/mediator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/behavioral/mediator/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/behavioral/mediator/</guid>
       <description>中介者模式 #  Mediator Pattern
 代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
     </item>
     
     <item>
       <title>单例</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/creational/singleton/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/creational/singleton/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/creational/singleton/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/creational/singleton/</guid>
       <description>单例模式 #  Singleton
 实现方法 #   初始化时即创建单例  饿汉式 枚举类型   按需，延迟创建单例  懒汉式  基础实现 同步锁 双重检验锁   静态内部类实现    饿汉式（线程安全） #   JVM 在类的初始化阶段 (即 在 Class 被加载后、被线程使用前)，会执行类的初始化 在执行类的初始化期间，JVM 会去获取一个锁，这个锁可以同步多个线程对同一个类的初始化  class Singleton { // 1. 加载该类时，单例就会自动被创建  private static Singleton ourInstance = new Singleton(); // 2. 构造函数设置为 私有权限，禁止他人创建实例  private Singleton() { } // 3. 通过调用静态方法获得创建的单例  public static Singleton newInstance() { return ourInstance; } } 应用场景</description>
     </item>
     
     <item>
       <title>外观</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/structural/facade/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/structural/facade/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/structural/facade/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/structural/facade/</guid>
       <description>外观模式 #  Facade
  适配器是将接口转换为不同接口 外观模式是提供一个统一的接口来简化接口  public class Facade Pattern { public static void main(String[] args) { //实例化电器类  SubSystemA_Light light = new SubSystemA_Light(); SubSystemB_Television television = new SubSystemB_Television(); SubSystemC_Aircondition aircondition = new SubSystemC_Aircondition(); //传参  Facade facade = new Facade(light,television,aircondition); //客户端直接与外观对象进行交互  facade.on; System.out.prinln(&amp;#34;可以看电视了&amp;#34;)； facade.off; System.out.prinln(&amp;#34;可以睡觉了&amp;#34;)； } } 代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
     </item>
     
     <item>
       <title>接口隔离原则</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/principle/isp/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/principle/isp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/principle/isp/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/principle/isp/</guid>
       <description>接口隔离原则 #   客户端不应该依赖它不需要的接口。 目的是解开系统的耦合，从而容易重构更改。  </description>
     </item>
     
     <item>
       <title>简单工厂</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/other/simple-factory/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/other/simple-factory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/other/simple-factory/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/other/simple-factory/</guid>
       <description>简单工厂模式 #  Simple Factory Pattern，又称为静态工厂方法 (Static Factory Method) 模式
 通过传入参数获取到对象，不关心创建对象的细节。
 // create 是静态方法，直接用类调用（不需要实例化） object1 = Factory.create(1); object2 = Factory.create(2); 优点
@@ -220,99 +220,99 @@ public interface Target { // 这是源类Adapteee没有的方法  public void Re
     
     <item>
       <title>享元</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/structural/flyweight/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/structural/flyweight/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/structural/flyweight/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/structural/flyweight/</guid>
       <description>享元模式 #  Flyweight
 代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
     </item>
     
     <item>
       <title>回忆</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/behavioral/memento/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/behavioral/memento/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/behavioral/memento/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/behavioral/memento/</guid>
       <description>回忆模式 #  Memento Pattern
 代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
     </item>
     
     <item>
       <title>职责链</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/behavioral/chain-of-responsibility/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/behavioral/chain-of-responsibility/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/behavioral/chain-of-responsibility/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/behavioral/chain-of-responsibility/</guid>
       <description>职责链模式 #  Chain-of-responsibility Pattern
 代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
     </item>
     
     <item>
       <title>迪米特原则</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/principle/lod/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/principle/lod/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/principle/lod/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/principle/lod/</guid>
       <description>迪米特原则 #   一个对象应该对其他对象有最少的了解 一个类应该对自己需要耦合或调用的类知道的越少越好，类的内部如何实现与调用者或依赖者没关系。  </description>
     </item>
     
     <item>
       <title>代理</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/structural/proxy/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/structural/proxy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/structural/proxy/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/structural/proxy/</guid>
       <description>代理模式 #  Proxy
 public interface Subject { public void buyMac(); } public class RealSubject implement Subject { @Override public void buyMac() { System.out.println(&amp;#34;买一台Mac&amp;#34;); } } public class Proxy implements Subject { @Override public void buyMac { //引用并创建真实对象实例，即&amp;#34;我&amp;#34;  RealSubject realSubject = new RealSubject(); //调用真实对象的方法，进行代理购买Mac  realSubject.buyMac(); //代理对象额外做的操作  this.WrapMac(); } public void WrapMac() { System.out.println(&amp;#34;用盒子包装好Mac&amp;#34;); } } public class ProxyPattern { public static void main(String[] args) { Subject proxy = new Proxy(); proxy.</description>
     </item>
     
     <item>
       <title>观察者</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/behavioral/observer/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/behavioral/observer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/behavioral/observer/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/behavioral/observer/</guid>
       <description>观察者模式 #  Observer Pattern
 代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
     </item>
     
     <item>
       <title>状态机</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/behavioral/state/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/behavioral/state/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/behavioral/state/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/behavioral/state/</guid>
       <description>状态机模式 #  State Pattern
 代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
     </item>
     
     <item>
       <title>策略</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/behavioral/strategy/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/behavioral/strategy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/behavioral/strategy/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/behavioral/strategy/</guid>
       <description>策略模式 #  Strategy Pattern
 代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
     </item>
     
     <item>
       <title>模板方法</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/behavioral/template-method/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/behavioral/template-method/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/behavioral/template-method/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/behavioral/template-method/</guid>
       <description>模板方法模式 #  Template Method Pattern
 代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
     </item>
     
     <item>
       <title>参观者</title>
-      <link>https://ikingye.github.io/design-pattern-note/docs/behavioral/visitor/</link>
+      <link>https://ikingye.github.io/design-pattern/docs/behavioral/visitor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ikingye.github.io/design-pattern-note/docs/behavioral/visitor/</guid>
+      <guid>https://ikingye.github.io/design-pattern/docs/behavioral/visitor/</guid>
       <description>参观者模式 #  Visitor Pattern
 代码示例 #  C C&amp;#43;&amp;#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  </description>
     </item>
