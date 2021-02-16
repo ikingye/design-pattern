@@ -7,14 +7,14 @@
 <meta name="description" content="简单工厂模式 #  Simple Factory Pattern，又称为静态工厂方法 (Static Factory Method) 模式
 通过传入参数获取到对象，不关心创建对象的细节。
 // create 是静态方法，直接用类调用（不需要实例化） object1 = Factory.create(1); object2 = Factory.create(2); 优点
- 将创建实例的工作与使用实例的工作分开，使用者不必关心类对象如何创建，实现了解耦； 把初始化实例时的工作放到工厂里进行，使代码更容易维护。 更符合面向对象的原则 &amp; 面向接口编程，而不是面向实现编程。  缺点
+ 将创建实例的工作与使用实例的工作分开，使用者不必关心类对象如何创建，实现了解耦； 把初始化实例时的工作放到工厂里进行，使代码更容易维护。更符合面向对象的原则 &amp; 面向接口编程，而不是面向实现编程。  缺点
  工厂类集中了所有实例（产品）的创建逻辑，一旦这个工厂不能正常工作，整个系统都会受到影响； 违背 “开放 - 关闭原则”，一旦添加新产品就不得不修改工厂类的逻辑，这样就会造成工厂逻辑过于复杂。 简单工厂模式由于使用了静态工厂方法，静态方法不能被继承和重写，会造成工厂角色无法形成基于继承的等级结构。 静态方法可以被继承  应用场景
  客户如果只知道传入工厂类的参数，对于如何创建对象的逻辑不关心时； 当工厂类负责创建的对象（具体产品）比较少时。  代码示例 #  C C&#43;&#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  ">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="简单工厂" />
 <meta property="og:description" content="简单工厂模式 #  Simple Factory Pattern，又称为静态工厂方法 (Static Factory Method) 模式
 通过传入参数获取到对象，不关心创建对象的细节。
 // create 是静态方法，直接用类调用（不需要实例化） object1 = Factory.create(1); object2 = Factory.create(2); 优点
- 将创建实例的工作与使用实例的工作分开，使用者不必关心类对象如何创建，实现了解耦； 把初始化实例时的工作放到工厂里进行，使代码更容易维护。 更符合面向对象的原则 &amp; 面向接口编程，而不是面向实现编程。  缺点
+ 将创建实例的工作与使用实例的工作分开，使用者不必关心类对象如何创建，实现了解耦； 把初始化实例时的工作放到工厂里进行，使代码更容易维护。更符合面向对象的原则 &amp; 面向接口编程，而不是面向实现编程。  缺点
  工厂类集中了所有实例（产品）的创建逻辑，一旦这个工厂不能正常工作，整个系统都会受到影响； 违背 “开放 - 关闭原则”，一旦添加新产品就不得不修改工厂类的逻辑，这样就会造成工厂逻辑过于复杂。 简单工厂模式由于使用了静态工厂方法，静态方法不能被继承和重写，会造成工厂角色无法形成基于继承的等级结构。 静态方法可以被继承  应用场景
  客户如果只知道传入工厂类的参数，对于如何创建对象的逻辑不关心时； 当工厂类负责创建的对象（具体产品）比较少时。  代码示例 #  C C&#43;&#43; C# Go Java JavaScript Kotlin PHP Python2 Python3 Ruby Rust Scala Swift TypeScript  " />
 <meta property="og:type" content="article" />
@@ -24,7 +24,7 @@
 <link rel="manifest" href="/design-pattern/manifest.json">
 <link rel="icon" href="/design-pattern/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/design-pattern/book.min.a05275973bc10933f75e45cfddc943bf308da7e5ac2206875045620e6c605584.css" integrity="sha256-oFJ1lzvBCTP3XkXP3clDvzCNp&#43;WsIgaHUEViDmxgVYQ=">
-<script defer src="/design-pattern/en.search.min.63e7cc42546ac5cd6ac250d5a5909746b9157f7ca12f5c8e69fcc407c1d2812b.js" integrity="sha256-Y&#43;fMQlRqxc1qwlDVpZCXRrkVf3yhL1yOafzEB8HSgSs="></script>
+<script defer src="/design-pattern/en.search.min.1fdc675f28f8feb27c5f9764774f5b06448aa35aadc776ddeefbeff9bfeadda3.js" integrity="sha256-H9xnXyj4/rJ8X5dkd09bBkSKo1qtx3bd7vvv&#43;b/q3aM="></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -591,7 +591,7 @@ object2 <span style="color:#f92672">=</span> Factory<span style="color:#f92672">
 </code></pre></div><p>优点</p>
 <ul>
 <li>将创建实例的工作与使用实例的工作分开，使用者不必关心类对象如何创建，实现了解耦；</li>
-<li>把初始化实例时的工作放到工厂里进行，使代码更容易维护。 更符合面向对象的原则 &amp; 面向接口编程，而不是面向实现编程。</li>
+<li>把初始化实例时的工作放到工厂里进行，使代码更容易维护。更符合面向对象的原则 &amp; 面向接口编程，而不是面向实现编程。</li>
 </ul>
 <p>缺点</p>
 <ul>
